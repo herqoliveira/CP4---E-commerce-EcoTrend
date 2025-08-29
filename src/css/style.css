@@ -2,3 +2,19 @@
     padding: 0;
     margin: 0;
 }
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover; 
+}
+.section-about{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+.card-home{
+    margin-top: 10vh;
+    border: 3px solid #c3ecd8;
+    border-radius: 14px;
+    width: 200px;
+    text-align: center;
+}
