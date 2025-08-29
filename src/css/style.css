@@ -49,6 +49,9 @@
 .img-banner-cate {
     background-image: url('https://cdn.prod.website-files.com/5e3dab93884abc0b719715a8/5f19c671152bac98b0d11155_Cosme%CC%81ticos%20sustenta%CC%81veis-uma%20alternativa%20para%20diminuir%20o%20impacto%20ambiental.jpg');
 }
+.img-banner-contato {
+    background-image: url('/src/assets/imgs/banner-contato.jpg');
+}
 .img-banner-roupas {
     background-image: url('https://cdn.prod.website-files.com/5e3dab93884abc0b719715a8/5f19c671152bac98b0d11155_Cosme%CC%81ticos%20sustenta%CC%81veis-uma%20alternativa%20para%20diminuir%20o%20impacto%20ambiental.jpg');
 }
@@ -81,4 +84,7 @@
 .banner h2,
 .banner p {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.card-body{
+    font-size: 20px;
 }
