@@ -4,7 +4,6 @@
 }
 
 .carousel-item img {
-    height: 80vh;
     object-fit: cover; 
 }
 
@@ -34,6 +33,7 @@
     width: 100%;
     height: 2px;
     background-color: #c3ecd8;
+    margin-bottom: 20px;
 }
 
 .banner {
@@ -93,3 +93,17 @@
     display: flex;
     gap: 20px;
 }
+.titulo-geral-home{
+    text-align: center;
+}
+.backgroundG{
+    background-color: #f2fdf8;
+    background: linear-gradient(to top, #fff , #c3ecd8 100%);
+}
+@media (min-width: 1200px) {
+  .carousel-item img {
+    object-fit: cover;
+    height: 85vh; 
+}
+}
+
