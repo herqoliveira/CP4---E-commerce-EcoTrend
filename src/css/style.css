@@ -117,4 +117,52 @@
     font-weight: bold;
 }
 
+.mb-3{
+    margin: 15px;
+}
+
+@media screen and (min-width: 1px) {
+    #loja{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        grid-template-areas: 
+        "cadeira",
+        "banco",
+        "vaso",
+        "escova";
+        
+    }
+}
+@media screen and (min-width: 768px) {
+    #loja{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "cadeira banco"
+        "vaso escova"; 
+
+    }
+} 
+@media screen and (min-width: 1024px) {
+    #loja{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "cadeira banco vaso escova"; 
+    }
+    
+}  
+
+#cadeira{
+    grid-area: cadeira;
+}
+#banco{
+    grid-area: banco;
+}
+#vaso{
+    grid-area: vaso;
+}
+#escov{
+    grid-area: escova;
+}
 
