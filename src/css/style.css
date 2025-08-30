@@ -6,7 +6,13 @@
 .carousel-item img {
     object-fit: cover; 
 }
-
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logoA{
+    padding-right: 3%;
+}
 .section-about {
     display: flex;
     justify-content: center;
