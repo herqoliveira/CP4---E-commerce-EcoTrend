@@ -116,5 +116,7 @@
 .negrito{
     font-weight: bold;
 }
-
+.active{
+    border-bottom: 1px solid #288a5b;
+}
 
