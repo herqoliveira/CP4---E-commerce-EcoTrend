@@ -106,4 +106,15 @@
     height: 85vh; 
 }
 }
+.confirmacao {
+  width: 24px;
+  height: 24px;
+}
+.row{
+    border-bottom: #c3ecd8 1px solid;
+}
+.negrito{
+    font-weight: bold;
+}
+
 
