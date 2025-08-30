@@ -87,3 +87,9 @@
 .card-body{
     font-size: 20px;
 }
+
+.cards-curios{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
