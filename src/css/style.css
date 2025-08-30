@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -7,12 +7,14 @@
     height: 80vh;
     object-fit: cover; 
 }
-.section-about{
+
+.section-about {
     display: flex;
     justify-content: center;
     gap: 10vw;
 }
-.card-home{
+
+.card-home {
     margin-top: 10vh;
     border: 3px solid #c3ecd8;
     border-radius: 14px;
@@ -21,16 +23,67 @@
 }
 .categorias_produtos {
     display: flex;
-    flex-wrap: wrap;   /* permite quebrar de linha */
+    flex-wrap: wrap;
+    /* permite quebrar de linha */
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
 }
-.line{
+
+.line {
     width: 100%;
     height: 2px;
     background-color: #c3ecd8;
 }
 
-    
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
 
+.img-banner-cate {
+    background-image: url('https://cdn.prod.website-files.com/5e3dab93884abc0b719715a8/5f19c671152bac98b0d11155_Cosme%CC%81ticos%20sustenta%CC%81veis-uma%20alternativa%20para%20diminuir%20o%20impacto%20ambiental.jpg');
+}
+.img-banner-contato {
+    background-image: url('/src/assets/imgs/banner-contato.jpg');
+}
+.img-banner-roupas {
+    background-image: url('https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/03/qual-o-conceito-de-moda-sustentavel.jpg');
+}
+.img-banner-beleza {
+    background-image: url('https://s2-glamour.glbimg.com/-fqYBmgP9ApYHfSQZtpvSy_mufA=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/T/r/VuBjciR8ibTp9ObISpjA/2019-08-14-cosmeticos-da-nu.jpg');
+}
+.img-banner-casa {
+    background-image: url('/src/assets/imgs/papel-de-madeira-reflorestada.png');
+}
+.img-banner-tec {
+    background-image: url('https://t4.ftcdn.net/jpg/09/01/65/25/360_F_901652598_8xNl2g5aqDnJD00pXukCGSUGbHyV5sDT.jpg');
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.banner h2,
+.banner p {
+    position: relative;
+    z-index: 2;
+}
+
+.banner h2,
+.banner p {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.card-body{
+    font-size: 20px;
+}
