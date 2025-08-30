@@ -4,8 +4,8 @@
 }
 
 .carousel-item img {
-  height: 80vh;
-  object-fit: cover; 
+    height: 80vh;
+    object-fit: cover; 
 }
 .section-about{
     display: flex;
@@ -19,7 +19,6 @@
     width: 200px;
     text-align: center;
 }
-
 .categorias_produtos {
     display: flex;
     flex-wrap: wrap;   /* permite quebrar de linha */
