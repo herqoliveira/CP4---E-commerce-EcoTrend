@@ -102,10 +102,7 @@
 .titulo-geral-home{
     text-align: center;
 }
-.backgroundG{
-    background-color: #f2fdf8;
-    background: linear-gradient(to top, #fff , #c3ecd8 100%);
-}
+
 @media (min-width: 1200px) {
   .carousel-item img {
     object-fit: cover;
