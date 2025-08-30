@@ -85,7 +85,9 @@
     position: relative;
     z-index: 2;
 }
-
+.backgroundG{
+    background-color: rgb(253, 253, 253);
+}
 .banner h2,
 .banner p {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
