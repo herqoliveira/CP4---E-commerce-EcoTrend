@@ -4,26 +4,32 @@
 }
 
 .carousel-item img {
-    object-fit: cover; 
+    object-fit: cover;
 }
-.logo{
+
+.logo {
     width: 60px;
     height: 60px;
 }
-.logoA{
+
+.logoA {
     padding-right: 3%;
 }
-.insta{
+
+.insta {
     background: linear-gradient(to right, blue, red);
 }
+
 .section-about {
     display: flex;
     justify-content: center;
     gap: 10vw;
 }
-.preco{
+
+.preco {
     font-weight: bold;
 }
+
 .card-home {
     margin-top: 10vh;
     border: 3px solid #c3ecd8;
@@ -31,6 +37,7 @@
     width: 200px;
     text-align: center;
 }
+
 .categorias_produtos {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +45,10 @@
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
+}
+
+.agrupa-cate {
+    display: flex;
 }
 
 .line {
@@ -59,21 +70,27 @@
 .img-banner-cate {
     background-image: url('https://cdn.prod.website-files.com/5e3dab93884abc0b719715a8/5f19c671152bac98b0d11155_Cosme%CC%81ticos%20sustenta%CC%81veis-uma%20alternativa%20para%20diminuir%20o%20impacto%20ambiental.jpg');
 }
+
 .img-banner-contato {
     background-image: url('/src/assets/imgs/banner-contato.jpg');
 }
+
 .img-banner-roupas {
     background-image: url('https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/03/qual-o-conceito-de-moda-sustentavel.jpg');
 }
+
 .img-banner-beleza {
     background-image: url('https://s2-glamour.glbimg.com/-fqYBmgP9ApYHfSQZtpvSy_mufA=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2021/T/r/VuBjciR8ibTp9ObISpjA/2019-08-14-cosmeticos-da-nu.jpg');
 }
+
 .img-banner-casa {
     background-image: url('/src/assets/imgs/papel-de-madeira-reflorestada.png');
 }
+
 .img-banner-tec {
     background-image: url('https://t4.ftcdn.net/jpg/09/01/65/25/360_F_901652598_8xNl2g5aqDnJD00pXukCGSUGbHyV5sDT.jpg');
 }
+
 .banner::before {
     content: "";
     position: absolute;
@@ -90,93 +107,155 @@
     position: relative;
     z-index: 2;
 }
-.backgroundG{
+
+.backgroundG {
     background-color: rgb(253, 253, 253);
 }
+
 .banner h2,
 .banner p {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
-.card-body{
+
+.card-body {
     font-size: 20px;
 }
 
-.cards-curios{
+.cards-curios {
     justify-content: center;
     display: flex;
     gap: 20px;
 }
-.titulo-geral-home{
+
+.titulo-geral-home {
     text-align: center;
 }
 
 @media (min-width: 1200px) {
-  .carousel-item img {
-    object-fit: cover;
-    height: 85vh; 
+    .carousel-item img {
+        object-fit: cover;
+        height: 85vh;
+    }
 }
-}
+
 .confirmacao {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
-.row{
+
+.row {
     border-bottom: #c3ecd8 1px solid;
 }
-.negrito{
+
+.negrito {
     font-weight: bold;
 }
 
-.mb-3{
+.mb-3 {
     margin: 15px;
 }
 
 @media screen and (min-width: 1px) {
-    #loja{
+    #loja {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 10px;
-        grid-template-areas: 
-        "cadeira",
-        "banco",
-        "vaso",
-        "escova";
-        
+        grid-template-areas:
+            "cadeira",
+            "banco",
+            "vaso",
+            "escova";
+
+    }
+    .agrupa-cate {
+        display: block;
     }
 }
+
 @media screen and (min-width: 768px) {
-    #loja{
+    #loja {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
-        "cadeira banco"
-        "vaso escova"; 
-
+            "cadeira banco"
+            "vaso escova";
     }
-} 
+    .agrupa-cate {
+        display: flex;
+    }
+}
+
 @media screen and (min-width: 1024px) {
-    #loja{
+    #loja {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
-        "cadeira banco vaso escova"; 
+            "cadeira banco vaso escova";
     }
-    
-}  
+    .agrupa-cate {
+        display: flex;
+    }
+}
 
-#cadeira{
+#cadeira {
     grid-area: cadeira;
 }
-#banco{
+
+#banco {
     grid-area: banco;
 }
-#vaso{
+
+#vaso {
     grid-area: vaso;
 }
-#escov{
+
+#escov {
     grid-area: escova;
 }
-.active{
+
+.active {
     border-bottom: 1px solid #288a5b;
 }
 
 
+.filtro-lateral {
+    width: 250px;
+    background: #f5f9f6;
+    border: 1px solid #c3ecd8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+    height: fit-content;
+    margin: 30px 0 0 110px;
+}
+
+.filtro-lateral h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #288a5b;
+    border-bottom: 2px solid #c3ecd8;
+    padding-bottom: 8px;
+}
+
+.filtro-lateral label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filtro-lateral input {
+    margin-right: 8px;
+}
+
+/* Layout para filtros + cards */
+.conteudo-categorias {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.categorias_produtos {
+    flex: 1;
+}
