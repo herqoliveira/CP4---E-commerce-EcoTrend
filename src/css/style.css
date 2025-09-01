@@ -13,12 +13,17 @@
 .logoA{
     padding-right: 3%;
 }
+.insta{
+    background: linear-gradient(to right, blue, red);
+}
 .section-about {
     display: flex;
     justify-content: center;
     gap: 10vw;
 }
-
+.preco{
+    font-weight: bold;
+}
 .card-home {
     margin-top: 10vh;
     border: 3px solid #c3ecd8;
