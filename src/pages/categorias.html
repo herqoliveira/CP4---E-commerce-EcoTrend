@@ -11,47 +11,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        .filtro-lateral {
-            width: 250px;
-            background: #f5f9f6;
-            border: 1px solid #c3ecd8;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-            font-family: Arial, sans-serif;
-            height: fit-content;
-        }
-
-        .filtro-lateral h3 {
-            font-size: 20px;
-            margin-bottom: 15px;
-            color: #288a5b;
-            border-bottom: 2px solid #c3ecd8;
-            padding-bottom: 8px;
-        }
-
-        .filtro-lateral label {
-            display: block;
-            margin-bottom: 10px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .filtro-lateral input {
-            margin-right: 8px;
-        }
-
-        /* Layout para filtros + cards */
-        .conteudo-categorias {
-            display: flex;
-            gap: 20px;
-            margin-top: 30px;
-            justify-content: center;
-        }
-
-        .categorias_produtos {
-            flex: 1;
-        }
+        
     </style>
     <title>eco</title>
 </head>
@@ -82,63 +42,73 @@
     <section class="banner img-banner-cate">
         <h2>Produtos da EcoTrend</h2>
     </section>
-    <section class="categorias_produtos">
-        <aside class="filtro-lateral">
-            <h3>Filtrar por</h3>
-            <label><input type="checkbox"> Roupas</label>
-            <label><input type="checkbox"> Beleza</label>
-            <label><input type="checkbox"> Casa</label>
-            <label><input type="checkbox"> Tecnologia Verde</label>
-            <h3>Preço</h3>
-            <label><input type="radio" name="preco"> Até R$ 50</label>
-            <label><input type="radio" name="preco"> R$ 50 - R$ 150</label>
-            <label><input type="radio" name="preco"> Acima de R$ 150</label>
-        </aside>
-        <div class="card" style="width: 18rem;">
-            <img src="../assets/imgs/Faça um banner para uma loja de produtos eco, ele vende roupas, produtos para a casa e produtos de beleza (1).jpg"
-                class="card-img-top" alt="Roupas e acessorios sustentaveis">
-            <div class="card-body">
-                <h5 class="card-title">Roupas e acessorios sustentaveis</h5>
-                <p class="card-text">Roupas e acessórios sustentáveis unem estilo e responsabilidade, feitos com
-                    materiais
-                    ecológicos e consumo consciente.</p>
-                <a href="../pages/roupaeacessora.html" class="btn btn-success">Conhecer</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../assets/imgs/faça uma de produtos de beleza e cuidado pessoal natural com a tematica sustentavel.jpg"
-                class="card-img-top" alt="Produtos de beleza e cuidados pessoais naturais">
-            <div class="card-body">
-                <h5 class="card-title">Produtos de beleza e cuidados pessoais naturais</h5>
-                <p class="card-text">Produtos de beleza e cuidados pessoais naturais priorizam ingredientes de origem
-                    vegetal e menos químicos, cuidando da saúde e do meio ambiente.</p>
-                <a href="produtobeleza.html" class="btn btn-success">Conhecer</a>
-            </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="../assets/imgs/Itens para casa sustentaveis.jpg" class="card-img-top"
-                alt="Itens para casa sustentaveis">
-            <div class="card-body">
-                <h5 class="card-title">Itens para casa sustentaveis</h5>
-                <p class="card-text"> Itens para casa sustentáveis são feitos com materiais ecológicos e duráveis,
-                    ajudando a reduzir o impacto ambiental no dia a dia.
-                </p>
-                <a href="casasustentavel.html" class="btn btn-success">Conhecer</a>
-            </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="../assets/imgs/tecnologia verde.jpg" class="card-img-top" alt="Tecnologia Verde">
-            <div class="card-body">
-                <h5 class="card-title">Tecnologia Verde</h5>
-                <p class="card-text">Tecnologia verde é o uso de inovações que reduzem impactos ambientais, promovendo
-                    eficiência energética e sustentabilidade.
-                </p>
-                <a href="tecnologiaverde.html" class="btn btn-success">Conhecer</a>
+    <section class="agrupa-cate">
+        <section class="filtro">
+            <aside class="filtro-lateral">
+                <h3>Filtrar por</h3>
+                <label><input type="checkbox"> Roupas</label>
+                <label><input type="checkbox"> Beleza</label>
+                <label><input type="checkbox"> Casa</label>
+                <label><input type="checkbox"> Tecnologia Verde</label>
+                <h3>Preço</h3>
+                <label><input type="radio" name="preco"> Até R$ 50</label>
+                <label><input type="radio" name="preco"> R$ 50 - R$ 150</label>
+                <label><input type="radio" name="preco"> Acima de R$ 150</label>
+            </aside>
+        </section>
+        <section class="categorias_produtos">
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/imgs/Faça um banner para uma loja de produtos eco, ele vende roupas, produtos para a casa e produtos de beleza (1).jpg"
+                    class="card-img-top" alt="Roupas e acessorios sustentaveis">
+                <div class="card-body">
+                    <h5 class="card-title">Roupas e acessorios sustentaveis</h5>
+                    <p class="card-text">Roupas e acessórios sustentáveis unem estilo e responsabilidade, feitos com
+                        materiais
+                        ecológicos e consumo consciente.</p>
+                    <a href="../pages/roupaeacessora.html" class="btn btn-success">Conhecer</a>
+                </div>
             </div>
-        </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/imgs/faça uma de produtos de beleza e cuidado pessoal natural com a tematica sustentavel.jpg"
+                    class="card-img-top" alt="Produtos de beleza e cuidados pessoais naturais">
+                <div class="card-body">
+                    <h5 class="card-title">Produtos de beleza e cuidados pessoais naturais</h5>
+                    <p class="card-text">Produtos de beleza e cuidados pessoais naturais priorizam ingredientes de origem
+                        vegetal e menos químicos, cuidando da saúde e do meio ambiente.</p>
+                    <a href="produtobeleza.html" class="btn btn-success">Conhecer</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/imgs/Itens para casa sustentaveis.jpg" class="card-img-top"
+                    alt="Itens para casa sustentaveis">
+                <div class="card-body">
+                    <h5 class="card-title">Itens para casa sustentaveis</h5>
+                    <p class="card-text"> Itens para casa sustentáveis são feitos com materiais ecológicos e duráveis,
+                        ajudando a reduzir o impacto ambiental no dia a dia.
+                    </p>
+                    <a href="casasustentavel.html" class="btn btn-success">Conhecer</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/imgs/tecnologia verde.jpg" class="card-img-top" alt="Tecnologia Verde">
+                <div class="card-body">
+                    <h5 class="card-title">Tecnologia Verde</h5>
+                    <p class="card-text">Tecnologia verde é o uso de inovações que reduzem impactos ambientais, promovendo
+                        eficiência energética e sustentabilidade.
+                    </p>
+                    <a href="tecnologiaverde.html" class="btn btn-success">Conhecer</a>
+                </div>
+            </div>
+        </section>
     </section>
+
+
+
+
     <br>
     <footer class="bg-dark text-center text-white py-4 mt-5">
         <div class="container">
