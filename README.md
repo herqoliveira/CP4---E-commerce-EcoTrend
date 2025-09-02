@@ -1,6 +1,7 @@
 # EcoTrend – E-commerce Sustentável
 
 Bem-vindo ao **EcoTrend**, um projeto de e-commerce com foco em produtos ecológicos e design consciente. Este projeto foi desenvolvido como parte do trabalho **CP4** pelos alunos:
+---
     - Henrique de Oliveira Gomes | RM566424 -
     - Henrique Kolomyes Silveira | RM563467 -
     - Matheus Santos de Oliveira | RM561982 - 
