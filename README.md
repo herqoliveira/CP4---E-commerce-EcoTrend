@@ -23,7 +23,7 @@ O EcoTrend oferece uma experiência de compra online para produtos sustentáveis
 ---
 ## Link do GitHub pages
 
--https://github.com/herqoliveira/CP4---E-commerce-EcoTrend
+https://herqoliveira.github.io/CP4---E-commerce-EcoTrend/
 
 ---
 ##  Como Executar Localmente
